@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.rookies {
+  width: 600px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+  .rookie {
+    cursor: pointer;
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+
+      transition: all ease-in-out 0.3s;
+    }
+  }
+}
