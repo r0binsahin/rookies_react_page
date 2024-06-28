@@ -14,10 +14,13 @@
   gap: 20px;
   .rookie {
     cursor: pointer;
+
     img {
       width: 250px;
       height: 250px;
       border-radius: 50%;
+      background-color: white;
+      object-fit: cover;
 
       transition: all ease-in-out 0.3s;
     }
