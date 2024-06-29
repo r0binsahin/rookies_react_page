@@ -59,11 +59,10 @@ function App() {
       <div className='rookies'>
         {rookies.map((rookie, index) => (
           <div className='rookie' key={index}>
-            <div
-              onMouseEnter={() => toggleEmoji(rookie.name)}
-              onMouseLeave={() => toggleEmoji(rookie.name)}
-            >
+            <div>
               <img
+                onMouseEnter={() => toggleEmoji(rookie.name)}
+                onMouseLeave={() => toggleEmoji(rookie.name)}
                 src={emojiStatus[rookie.name] ? rookie.img : rookie.emo}
                 alt={rookie.name}
               />
